@@ -13,7 +13,7 @@ end
 def take_a_number(katz_deli,name)
   #new_list = []
   if katz_deli.count == 0
-      katz_deli << katz_deli + name.split
+      katz_deli << (katz_deli + name.split).split
       puts "Welcome, " + "#{name}. " + "You are number " + "1" + " in line."
   else nil
   end
