@@ -16,7 +16,7 @@ def take_a_number(katz_deli,name)
       katz_deli << (katz_deli + name.split).join
       puts "Welcome, " + "#{name}. " + "You are number " + "1" + " in line."
   elsif katz_deli.count > 0
-    katz_deli << name.split
+    katz_deli << (name.split).join
   else nil
   end
 end
