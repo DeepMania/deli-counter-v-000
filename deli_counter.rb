@@ -24,4 +24,6 @@ end
 def now_serving
   if katz_deli.count == 0
     puts "T"
+  else nil
+  end
 end
