@@ -13,7 +13,7 @@ end
 def take_a_number(katz_deli,name)
   new_list = []
   if katz_deli.count == 0
-      new_list << " #{katz_deli[index+1]}. "+"#{name}"
+      new_list << katz_deli + "#{name}"
       puts "W"
   else nil
   end
