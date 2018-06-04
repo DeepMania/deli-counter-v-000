@@ -21,7 +21,7 @@ def take_a_number(katz_deli,name)
   end
 end
 
-def now_serving
+def now_serving(katz_deli)
   if katz_deli.count == 0
     puts "T"
   else nil
